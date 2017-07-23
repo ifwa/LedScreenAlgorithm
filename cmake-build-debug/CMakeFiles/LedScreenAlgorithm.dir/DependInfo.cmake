@@ -16,6 +16,7 @@ set(CMAKE_DEPENDS_CHECK_C
   "/Volumes/SD卡/Workplace/LedScreenAlgorithm/src/Effects/EffectScroll.c" "/Volumes/SD卡/Workplace/LedScreenAlgorithm/cmake-build-debug/CMakeFiles/LedScreenAlgorithm.dir/src/Effects/EffectScroll.c.o"
   "/Volumes/SD卡/Workplace/LedScreenAlgorithm/src/Effects/EffectSnow.c" "/Volumes/SD卡/Workplace/LedScreenAlgorithm/cmake-build-debug/CMakeFiles/LedScreenAlgorithm.dir/src/Effects/EffectSnow.c.o"
   "/Volumes/SD卡/Workplace/LedScreenAlgorithm/src/Effects/EffectUp.c" "/Volumes/SD卡/Workplace/LedScreenAlgorithm/cmake-build-debug/CMakeFiles/LedScreenAlgorithm.dir/src/Effects/EffectUp.c.o"
+  "/Volumes/SD卡/Workplace/LedScreenAlgorithm/src/Simulator/Simulator.c" "/Volumes/SD卡/Workplace/LedScreenAlgorithm/cmake-build-debug/CMakeFiles/LedScreenAlgorithm.dir/src/Simulator/Simulator.c.o"
   )
 set(CMAKE_C_COMPILER_ID "AppleClang")
 

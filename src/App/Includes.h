@@ -29,5 +29,6 @@
 #include "../Effects/EffectFixed.h"
 #include "../Effects/EffectLeft.h"
 #include "../Effects/EffectRight.h"
+#include "../Simulator/Simulator.h"
 
 #endif

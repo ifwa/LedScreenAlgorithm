@@ -66,7 +66,7 @@ CMAKE_BINARY_DIR = /Volumes/SD卡/Workplace/LedScreenAlgorithm/cmake-build-debug
 CMakeFiles/LedScreenAlgorithm.dir/all:
 	$(MAKE) -f CMakeFiles/LedScreenAlgorithm.dir/build.make CMakeFiles/LedScreenAlgorithm.dir/depend
 	$(MAKE) -f CMakeFiles/LedScreenAlgorithm.dir/build.make CMakeFiles/LedScreenAlgorithm.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Volumes/SD卡/Workplace/LedScreenAlgorithm/cmake-build-debug/CMakeFiles --progress-num=1,2,3,4,5,6,7,8,9,10,11,12,13 "Built target LedScreenAlgorithm"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Volumes/SD卡/Workplace/LedScreenAlgorithm/cmake-build-debug/CMakeFiles --progress-num=1,2,3,4,5,6,7,8,9,10,11,12,13,14 "Built target LedScreenAlgorithm"
 .PHONY : CMakeFiles/LedScreenAlgorithm.dir/all
 
 # Include target in all.
@@ -76,7 +76,7 @@ all: CMakeFiles/LedScreenAlgorithm.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/LedScreenAlgorithm.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Volumes/SD卡/Workplace/LedScreenAlgorithm/cmake-build-debug/CMakeFiles 13
+	$(CMAKE_COMMAND) -E cmake_progress_start /Volumes/SD卡/Workplace/LedScreenAlgorithm/cmake-build-debug/CMakeFiles 14
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/LedScreenAlgorithm.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Volumes/SD卡/Workplace/LedScreenAlgorithm/cmake-build-debug/CMakeFiles 0
 .PHONY : CMakeFiles/LedScreenAlgorithm.dir/rule

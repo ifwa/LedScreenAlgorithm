@@ -12,6 +12,7 @@
 
 #include "Includes.h"
 
+
 UINT8 bzmha[96] = {
 	0x40,0x02,0x50,0x09,0xDF,0x04,0x55,0x05,
 	0x75,0x0A,0xD5,0x0F,0x55,0x02,0x75,0x05,
@@ -35,14 +36,16 @@ int main(void)
     unsigned char i;
 
     LED_DisplayInit();
+    Sim_Init();
 
     for (i = 0; i < 48; i++) {
-        LedDisplay.curFrameBuf->buf[i] = (UINT16)bzmha[i * 2 + 1] * 256 + bzmha[i * 2];
+//        LedDisplay.curFrameBuf->buf[i] = (UINT16)bzmha[i * 2 + 1] * 256 + bzmha[i * 2];
         //LedDisplay.curFrameBuf->buf[i] = 0x0FFF;
     }
 
-    while (1) {
+    while (LedSimDat.simRunFlag) {
         LED_Process();
     }
+    endwin();
+    return 0;
 }
-

@@ -16,6 +16,7 @@ CMakeFiles/LedScreenAlgorithm.dir/src/App/Main.c.o: ../src/Effects/EffectRight.h
 CMakeFiles/LedScreenAlgorithm.dir/src/App/Main.c.o: ../src/Effects/EffectScroll.h
 CMakeFiles/LedScreenAlgorithm.dir/src/App/Main.c.o: ../src/Effects/EffectSnow.h
 CMakeFiles/LedScreenAlgorithm.dir/src/App/Main.c.o: ../src/Effects/EffectUp.h
+CMakeFiles/LedScreenAlgorithm.dir/src/App/Main.c.o: ../src/Simulator/Simulator.h
 
 CMakeFiles/LedScreenAlgorithm.dir/src/Display/LedAct.c.o: ../src/App/Config.h
 CMakeFiles/LedScreenAlgorithm.dir/src/Display/LedAct.c.o: ../src/App/Includes.h
@@ -32,6 +33,7 @@ CMakeFiles/LedScreenAlgorithm.dir/src/Display/LedAct.c.o: ../src/Effects/EffectR
 CMakeFiles/LedScreenAlgorithm.dir/src/Display/LedAct.c.o: ../src/Effects/EffectScroll.h
 CMakeFiles/LedScreenAlgorithm.dir/src/Display/LedAct.c.o: ../src/Effects/EffectSnow.h
 CMakeFiles/LedScreenAlgorithm.dir/src/Display/LedAct.c.o: ../src/Effects/EffectUp.h
+CMakeFiles/LedScreenAlgorithm.dir/src/Display/LedAct.c.o: ../src/Simulator/Simulator.h
 
 CMakeFiles/LedScreenAlgorithm.dir/src/Display/LedEffect.c.o: ../src/App/Config.h
 CMakeFiles/LedScreenAlgorithm.dir/src/Display/LedEffect.c.o: ../src/App/Includes.h
@@ -48,6 +50,7 @@ CMakeFiles/LedScreenAlgorithm.dir/src/Display/LedEffect.c.o: ../src/Effects/Effe
 CMakeFiles/LedScreenAlgorithm.dir/src/Display/LedEffect.c.o: ../src/Effects/EffectScroll.h
 CMakeFiles/LedScreenAlgorithm.dir/src/Display/LedEffect.c.o: ../src/Effects/EffectSnow.h
 CMakeFiles/LedScreenAlgorithm.dir/src/Display/LedEffect.c.o: ../src/Effects/EffectUp.h
+CMakeFiles/LedScreenAlgorithm.dir/src/Display/LedEffect.c.o: ../src/Simulator/Simulator.h
 
 CMakeFiles/LedScreenAlgorithm.dir/src/Display/LedProcess.c.o: ../src/App/Config.h
 CMakeFiles/LedScreenAlgorithm.dir/src/Display/LedProcess.c.o: ../src/App/Includes.h
@@ -64,6 +67,7 @@ CMakeFiles/LedScreenAlgorithm.dir/src/Display/LedProcess.c.o: ../src/Effects/Eff
 CMakeFiles/LedScreenAlgorithm.dir/src/Display/LedProcess.c.o: ../src/Effects/EffectScroll.h
 CMakeFiles/LedScreenAlgorithm.dir/src/Display/LedProcess.c.o: ../src/Effects/EffectSnow.h
 CMakeFiles/LedScreenAlgorithm.dir/src/Display/LedProcess.c.o: ../src/Effects/EffectUp.h
+CMakeFiles/LedScreenAlgorithm.dir/src/Display/LedProcess.c.o: ../src/Simulator/Simulator.h
 
 CMakeFiles/LedScreenAlgorithm.dir/src/Effects/EffectDown.c.o: ../src/App/Config.h
 CMakeFiles/LedScreenAlgorithm.dir/src/Effects/EffectDown.c.o: ../src/App/Includes.h
@@ -80,6 +84,7 @@ CMakeFiles/LedScreenAlgorithm.dir/src/Effects/EffectDown.c.o: ../src/Effects/Eff
 CMakeFiles/LedScreenAlgorithm.dir/src/Effects/EffectDown.c.o: ../src/Effects/EffectScroll.h
 CMakeFiles/LedScreenAlgorithm.dir/src/Effects/EffectDown.c.o: ../src/Effects/EffectSnow.h
 CMakeFiles/LedScreenAlgorithm.dir/src/Effects/EffectDown.c.o: ../src/Effects/EffectUp.h
+CMakeFiles/LedScreenAlgorithm.dir/src/Effects/EffectDown.c.o: ../src/Simulator/Simulator.h
 
 CMakeFiles/LedScreenAlgorithm.dir/src/Effects/EffectFixed.c.o: ../src/App/Config.h
 CMakeFiles/LedScreenAlgorithm.dir/src/Effects/EffectFixed.c.o: ../src/App/Includes.h
@@ -96,6 +101,7 @@ CMakeFiles/LedScreenAlgorithm.dir/src/Effects/EffectFixed.c.o: ../src/Effects/Ef
 CMakeFiles/LedScreenAlgorithm.dir/src/Effects/EffectFixed.c.o: ../src/Effects/EffectScroll.h
 CMakeFiles/LedScreenAlgorithm.dir/src/Effects/EffectFixed.c.o: ../src/Effects/EffectSnow.h
 CMakeFiles/LedScreenAlgorithm.dir/src/Effects/EffectFixed.c.o: ../src/Effects/EffectUp.h
+CMakeFiles/LedScreenAlgorithm.dir/src/Effects/EffectFixed.c.o: ../src/Simulator/Simulator.h
 
 CMakeFiles/LedScreenAlgorithm.dir/src/Effects/EffectLaser.c.o: ../src/App/Config.h
 CMakeFiles/LedScreenAlgorithm.dir/src/Effects/EffectLaser.c.o: ../src/App/Includes.h
@@ -112,6 +118,7 @@ CMakeFiles/LedScreenAlgorithm.dir/src/Effects/EffectLaser.c.o: ../src/Effects/Ef
 CMakeFiles/LedScreenAlgorithm.dir/src/Effects/EffectLaser.c.o: ../src/Effects/EffectScroll.h
 CMakeFiles/LedScreenAlgorithm.dir/src/Effects/EffectLaser.c.o: ../src/Effects/EffectSnow.h
 CMakeFiles/LedScreenAlgorithm.dir/src/Effects/EffectLaser.c.o: ../src/Effects/EffectUp.h
+CMakeFiles/LedScreenAlgorithm.dir/src/Effects/EffectLaser.c.o: ../src/Simulator/Simulator.h
 
 CMakeFiles/LedScreenAlgorithm.dir/src/Effects/EffectLeft.c.o: ../src/App/Config.h
 CMakeFiles/LedScreenAlgorithm.dir/src/Effects/EffectLeft.c.o: ../src/App/Includes.h
@@ -128,6 +135,7 @@ CMakeFiles/LedScreenAlgorithm.dir/src/Effects/EffectLeft.c.o: ../src/Effects/Eff
 CMakeFiles/LedScreenAlgorithm.dir/src/Effects/EffectLeft.c.o: ../src/Effects/EffectScroll.h
 CMakeFiles/LedScreenAlgorithm.dir/src/Effects/EffectLeft.c.o: ../src/Effects/EffectSnow.h
 CMakeFiles/LedScreenAlgorithm.dir/src/Effects/EffectLeft.c.o: ../src/Effects/EffectUp.h
+CMakeFiles/LedScreenAlgorithm.dir/src/Effects/EffectLeft.c.o: ../src/Simulator/Simulator.h
 
 CMakeFiles/LedScreenAlgorithm.dir/src/Effects/EffectRight.c.o: ../src/App/Config.h
 CMakeFiles/LedScreenAlgorithm.dir/src/Effects/EffectRight.c.o: ../src/App/Includes.h
@@ -144,6 +152,7 @@ CMakeFiles/LedScreenAlgorithm.dir/src/Effects/EffectRight.c.o: ../src/Effects/Ef
 CMakeFiles/LedScreenAlgorithm.dir/src/Effects/EffectRight.c.o: ../src/Effects/EffectScroll.h
 CMakeFiles/LedScreenAlgorithm.dir/src/Effects/EffectRight.c.o: ../src/Effects/EffectSnow.h
 CMakeFiles/LedScreenAlgorithm.dir/src/Effects/EffectRight.c.o: ../src/Effects/EffectUp.h
+CMakeFiles/LedScreenAlgorithm.dir/src/Effects/EffectRight.c.o: ../src/Simulator/Simulator.h
 
 CMakeFiles/LedScreenAlgorithm.dir/src/Effects/EffectScroll.c.o: ../src/App/Config.h
 CMakeFiles/LedScreenAlgorithm.dir/src/Effects/EffectScroll.c.o: ../src/App/Includes.h
@@ -160,6 +169,7 @@ CMakeFiles/LedScreenAlgorithm.dir/src/Effects/EffectScroll.c.o: ../src/Effects/E
 CMakeFiles/LedScreenAlgorithm.dir/src/Effects/EffectScroll.c.o: ../src/Effects/EffectScroll.h
 CMakeFiles/LedScreenAlgorithm.dir/src/Effects/EffectScroll.c.o: ../src/Effects/EffectSnow.h
 CMakeFiles/LedScreenAlgorithm.dir/src/Effects/EffectScroll.c.o: ../src/Effects/EffectUp.h
+CMakeFiles/LedScreenAlgorithm.dir/src/Effects/EffectScroll.c.o: ../src/Simulator/Simulator.h
 
 CMakeFiles/LedScreenAlgorithm.dir/src/Effects/EffectSnow.c.o: ../src/App/Config.h
 CMakeFiles/LedScreenAlgorithm.dir/src/Effects/EffectSnow.c.o: ../src/App/Includes.h
@@ -176,6 +186,7 @@ CMakeFiles/LedScreenAlgorithm.dir/src/Effects/EffectSnow.c.o: ../src/Effects/Eff
 CMakeFiles/LedScreenAlgorithm.dir/src/Effects/EffectSnow.c.o: ../src/Effects/EffectSnow.c
 CMakeFiles/LedScreenAlgorithm.dir/src/Effects/EffectSnow.c.o: ../src/Effects/EffectSnow.h
 CMakeFiles/LedScreenAlgorithm.dir/src/Effects/EffectSnow.c.o: ../src/Effects/EffectUp.h
+CMakeFiles/LedScreenAlgorithm.dir/src/Effects/EffectSnow.c.o: ../src/Simulator/Simulator.h
 
 CMakeFiles/LedScreenAlgorithm.dir/src/Effects/EffectUp.c.o: ../src/App/Config.h
 CMakeFiles/LedScreenAlgorithm.dir/src/Effects/EffectUp.c.o: ../src/App/Includes.h
@@ -192,4 +203,22 @@ CMakeFiles/LedScreenAlgorithm.dir/src/Effects/EffectUp.c.o: ../src/Effects/Effec
 CMakeFiles/LedScreenAlgorithm.dir/src/Effects/EffectUp.c.o: ../src/Effects/EffectSnow.h
 CMakeFiles/LedScreenAlgorithm.dir/src/Effects/EffectUp.c.o: ../src/Effects/EffectUp.c
 CMakeFiles/LedScreenAlgorithm.dir/src/Effects/EffectUp.c.o: ../src/Effects/EffectUp.h
+CMakeFiles/LedScreenAlgorithm.dir/src/Effects/EffectUp.c.o: ../src/Simulator/Simulator.h
+
+CMakeFiles/LedScreenAlgorithm.dir/src/Simulator/Simulator.c.o: ../src/App/Config.h
+CMakeFiles/LedScreenAlgorithm.dir/src/Simulator/Simulator.c.o: ../src/App/Includes.h
+CMakeFiles/LedScreenAlgorithm.dir/src/Simulator/Simulator.c.o: ../src/App/Typedef.h
+CMakeFiles/LedScreenAlgorithm.dir/src/Simulator/Simulator.c.o: ../src/Display/LedAct.h
+CMakeFiles/LedScreenAlgorithm.dir/src/Simulator/Simulator.c.o: ../src/Display/LedEffect.h
+CMakeFiles/LedScreenAlgorithm.dir/src/Simulator/Simulator.c.o: ../src/Display/LedProcess.h
+CMakeFiles/LedScreenAlgorithm.dir/src/Simulator/Simulator.c.o: ../src/Effects/EffectDown.h
+CMakeFiles/LedScreenAlgorithm.dir/src/Simulator/Simulator.c.o: ../src/Effects/EffectFixed.h
+CMakeFiles/LedScreenAlgorithm.dir/src/Simulator/Simulator.c.o: ../src/Effects/EffectLaser.h
+CMakeFiles/LedScreenAlgorithm.dir/src/Simulator/Simulator.c.o: ../src/Effects/EffectLeft.h
+CMakeFiles/LedScreenAlgorithm.dir/src/Simulator/Simulator.c.o: ../src/Effects/EffectRight.h
+CMakeFiles/LedScreenAlgorithm.dir/src/Simulator/Simulator.c.o: ../src/Effects/EffectScroll.h
+CMakeFiles/LedScreenAlgorithm.dir/src/Simulator/Simulator.c.o: ../src/Effects/EffectSnow.h
+CMakeFiles/LedScreenAlgorithm.dir/src/Simulator/Simulator.c.o: ../src/Effects/EffectUp.h
+CMakeFiles/LedScreenAlgorithm.dir/src/Simulator/Simulator.c.o: ../src/Simulator/Simulator.c
+CMakeFiles/LedScreenAlgorithm.dir/src/Simulator/Simulator.c.o: ../src/Simulator/Simulator.h
 

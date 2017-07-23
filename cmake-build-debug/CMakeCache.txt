@@ -186,14 +186,35 @@ CMAKE_STRIP:FILEPATH=/Applications/Xcode.app/Contents/Developer/Toolchains/Xcode
 // Studio IDE projects all commands are done without /nologo.
 CMAKE_VERBOSE_MAKEFILE:BOOL=FALSE
 
+//Path to a library.
+LIB_NCURSES:FILEPATH=/usr/lib/libncurses.dylib
+
+//Path to a library.
+LIB_PTHREAD:FILEPATH=/usr/lib/libpthread.dylib
+
+//Path to a library.
+LIB_THREAD:FILEPATH=LIB_THREAD-NOTFOUND
+
 //Value Computed by CMake
 LedScreenAlgorithm_BINARY_DIR:STATIC=/Volumes/SD卡/Workplace/LedScreenAlgorithm/cmake-build-debug
 
 //Value Computed by CMake
 LedScreenAlgorithm_SOURCE_DIR:STATIC=/Volumes/SD卡/Workplace/LedScreenAlgorithm
 
+//The directory containing a CMake configuration file for NCURSES.
+NCURSES_DIR:PATH=NCURSES_DIR-NOTFOUND
+
 //Path to a program.
 ProcessorCount_cmd_sysctl:FILEPATH=/usr/sbin/sysctl
+
+//The directory containing a CMake configuration file for find_packageNCURSES.
+find_packageNCURSES_DIR:PATH=find_packageNCURSES_DIR-NOTFOUND
+
+//The directory containing a CMake configuration file for ncurses-devel.
+ncurses-devel_DIR:PATH=ncurses-devel_DIR-NOTFOUND
+
+//The directory containing a CMake configuration file for ncurses.
+ncurses_DIR:PATH=ncurses_DIR-NOTFOUND
 
 
 ########################

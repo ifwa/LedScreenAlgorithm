@@ -39,6 +39,8 @@ Config.h
 /Volumes/SD卡/Workplace/LedScreenAlgorithm/src/Effects/EffectLeft.h
 ../Effects/EffectRight.h
 /Volumes/SD卡/Workplace/LedScreenAlgorithm/src/Effects/EffectRight.h
+../Simulator/Simulator.h
+/Volumes/SD卡/Workplace/LedScreenAlgorithm/src/Simulator/Simulator.h
 
 /Volumes/SD卡/Workplace/LedScreenAlgorithm/src/App/Main.c
 Includes.h
@@ -135,4 +137,22 @@ Includes.h
 /Volumes/SD卡/Workplace/LedScreenAlgorithm/src/Effects/EffectUp.h
 ../App/Includes.h
 /Volumes/SD卡/Workplace/LedScreenAlgorithm/src/App/Includes.h
+
+/Volumes/SD卡/Workplace/LedScreenAlgorithm/src/Simulator/Simulator.c
+../App/Includes.h
+/Volumes/SD卡/Workplace/LedScreenAlgorithm/src/App/Includes.h
+
+/Volumes/SD卡/Workplace/LedScreenAlgorithm/src/Simulator/Simulator.h
+ncurses.h
+-
+stdio.h
+-
+stdlib.h
+-
+string.h
+-
+pthread.h
+-
+unistd.h
+-
 

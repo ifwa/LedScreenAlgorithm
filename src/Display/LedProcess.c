@@ -23,6 +23,9 @@ const LED_SCREEN_BUF FullScrBuf = {0xFF, 0xFF, 0xFF, 0xFF, 0xFF, 0xFF, 0xFF, 0xF
 const LED_SCREEN_BUF EmptyScrBuf = {0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
                                     0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0};
 
+// These are just for tests.
+
+// "暴走漫画"
 UINT8 bzmh[96] = {
 	0x40,0x02,0x50,0x09,0xDF,0x04,0x55,0x05,
 	0x75,0x0A,0xD5,0x0F,0x55,0x02,0x75,0x05,
@@ -41,6 +44,7 @@ UINT8 bzmh[96] = {
 	0xFA,0x05,0x02,0x04,0xF3,0x0F,0x02,0x00
 };
 
+// "美国队长"
 UINT8 mgdz[96] = {
 	0x20, 0x08, 0xA2, 0x08, 0xAA, 0x04, 0xAB, 0x04,
 	0xAA, 0x02, 0xFE, 0x01, 0xAA, 0x01, 0xAB, 0x02,
@@ -59,6 +63,7 @@ UINT8 mgdz[96] = {
 	0x22, 0x02, 0x21, 0x04, 0x30, 0x04, 0x20, 0x04
 };
 
+// "动物森林"
 UINT8 dwsl[96] = {
 	0x10, 0x01, 0x92, 0x03, 0x52, 0x01, 0x32, 0x09,
 	0x92, 0x09, 0x10, 0x05, 0x08, 0x02, 0x88, 0x01,
@@ -79,7 +84,7 @@ UINT8 dwsl[96] = {
 
 void LED_DisplayCurScrUpd(LED_DISPLAY *ledDisp)
 {
-    /*UINT8 i;
+    UINT8 i;
 	if (ledDisp->act[ledDisp->actCnt].effect.screenCnt == 0) {
 		for (i = 0; i < 48; i++) {
 			ledDisp->curScreenBuf->buf[i] = (UINT16)bzmh[i * 2 + 1] * 256 + bzmh[i * 2];
@@ -94,36 +99,36 @@ void LED_DisplayCurScrUpd(LED_DISPLAY *ledDisp)
 		for (i = 0; i < 48; i++) {
 			ledDisp->curScreenBuf->buf[i] = (UINT16)dwsl[i * 2 + 1] * 256 + dwsl[i * 2];
 		}
-	}*/
-	UINT8 *buf;
-    UINT16 capBytes;
-    UINT16 startByte;
-    UINT8 i,j,k;
-    UINT16 temp;
-    // buf = ;
-    
-    if (ledDisp->actCnt == 0) {
-        startByte = 48;
-    } else {
-        startByte = 48 + buf[11 + (ledDisp->actCnt - 1) * 4] + buf[12 + (ledDisp->actCnt - 1) * 4] * 256;
-    }
-    capBytes = buf[13 + ledDisp->actCnt * 4] + buf[14 + ledDisp->actCnt * 4];
-
-    for (i = 0; i < 6; i++) {
-        if (ledDisp->actCnt * 6 + i < capBytes) {
-            for (j = 0; j < 8; j++) {
-                temp = 0;
-                for (k = 0; k < 12; k++) {
-                    temp |= ((buf[startByte + (ledDisp->actCnt * 6 + i) * 12 + k] >> (7 - j)) % 2) << k;
-                }
-                ledDisp->curScreenBuf->buf[i * 8 + j] = temp;
-            }
-        } else {
-            for (j = 0; j < 8; j++) {
-                ledDisp->curScreenBuf->buf[i * 8 + j] = 0;
-            }
-        }
-    }
+	}
+//	UINT8 *buf;
+//    UINT16 capBytes;
+//    UINT16 startByte;
+//    UINT8 i,j,k;
+//    UINT16 temp;
+//    // buf = ;
+//
+//    if (ledDisp->actCnt == 0) {
+//        startByte = 48;
+//    } else {
+//        startByte = 48 + buf[11 + (ledDisp->actCnt - 1) * 4] + buf[12 + (ledDisp->actCnt - 1) * 4] * 256;
+//    }
+//    capBytes = buf[13 + ledDisp->actCnt * 4] + buf[14 + ledDisp->actCnt * 4];
+//
+//    for (i = 0; i < 6; i++) {
+//        if (ledDisp->actCnt * 6 + i < capBytes) {
+//            for (j = 0; j < 8; j++) {
+//                temp = 0;
+//                for (k = 0; k < 12; k++) {
+//                    temp |= ((buf[startByte + (ledDisp->actCnt * 6 + i) * 12 + k] >> (7 - j)) % 2) << k;
+//                }
+//                ledDisp->curScreenBuf->buf[i * 8 + j] = temp;
+//            }
+//        } else {
+//            for (j = 0; j < 8; j++) {
+//                ledDisp->curScreenBuf->buf[i * 8 + j] = 0;
+//            }
+//        }
+//    }
 }
 
 void LED_DisplayNxtScrUpd(LED_DISPLAY *ledDisp)
@@ -168,17 +173,43 @@ void LED_DisplayLstScrUpd(LED_DISPLAY *ledDisp)
 
 void LED_DisplayColRefresh(LED_SCREEN_BUF *buf, UINT8 col)
 {
-//    DispFuncArray[col](buf);
+    int i, j;
+
+    for (i = col * 2; i < (col + 1) * 2 + 1; i++) {
+        for (j = 0; j < 12; j++) {
+//            if ((LedDisplay.curFrameBuf->buf[i] >> j) % 2 != 0) {
+            if ((buf->buf[i] >> j) % 2 != 0) {
+                Sim_DrawDot(i, j);
+            } else {
+                Sim_ClearDot(i, j);
+            }
+        }
+    }
+    Sim_LedScreenRefresh();
 }
 
 void LED_DisplayColClear(LED_SCREEN_BUF *buf, UINT8 col)
 {
-//    DispFuncArray[col]((void *)&EmptyScrBuf);
+    int i, j;
+
+    for (i = col * 2; i < (col + 1) * 2; i++) {
+        for (j = 0; j < 12; j++) {
+            Sim_ClearDot(i, j);
+        }
+    }
+    Sim_LedScreenRefresh();
 }
 
 void LED_DisplayColFull(LED_SCREEN_BUF * buf, UINT8 col)
 {
-//    DispFuncArray[col]((void *)&FullScrBuf);
+    int i, j;
+
+    for (i = col * 2; i < (col + 1) * 2 + 1; i++) {
+        for (j = 0; j < 12; j++) {
+            Sim_DrawDot(i, j);
+        }
+    }
+    Sim_LedScreenRefresh();
 }
 
 void LED_DisplayInit(void)
@@ -208,7 +239,8 @@ void LED_DisplayInit(void)
 	LedDisplay.act[6].enable = 0;
 	LedDisplay.act[7].enable = 0;
 
-    /*LedDisplay.act[0].enable = 1;
+    //
+    LedDisplay.act[0].enable = 1;
 	LedDisplay.act[1].enable = 1;
 	LedDisplay.act[2].enable = 1;
 	LedDisplay.act[3].enable = 1;
@@ -267,7 +299,7 @@ void LED_DisplayInit(void)
 	LedDisplay.act[7].horseTms = 25;
 
     LedDisplay.mode = LED_DISPLAY_MODE_NOR;
-    LedDisplay.brightness = 3;*/
+    LedDisplay.brightness = 3;
 }
 
 void LED_Process(void)
@@ -282,7 +314,7 @@ void LED_Process(void)
             LED_ActHandle((void *)&LedDisplay);
             break;
         case LED_DISPLAY_MODE_BAT:
-            // Do something to handle the battary mode, e.g. LED_BattaryHandle(&LedDisplay);...
+            // Do something to handle the battery mode, e.g. LED_BatteryHandle(&LedDisplay);...
             break;
         case LED_DISPLAY_MODE_OFF:
         default:

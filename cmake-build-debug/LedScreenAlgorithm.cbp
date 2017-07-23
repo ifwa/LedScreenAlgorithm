@@ -160,6 +160,12 @@
 		<Unit filename="/Volumes/SD卡/Workplace/LedScreenAlgorithm/src/Effects/EffectUp.h">
 			<Option target="LedScreenAlgorithm"/>
 		</Unit>
+		<Unit filename="/Volumes/SD卡/Workplace/LedScreenAlgorithm/src/Simulator/Simulator.c">
+			<Option target="LedScreenAlgorithm"/>
+		</Unit>
+		<Unit filename="/Volumes/SD卡/Workplace/LedScreenAlgorithm/src/Simulator/Simulator.h">
+			<Option target="LedScreenAlgorithm"/>
+		</Unit>
 		<Unit filename="/Volumes/SD卡/Workplace/LedScreenAlgorithm/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>

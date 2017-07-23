@@ -11,6 +11,7 @@ file(REMOVE_RECURSE
   "CMakeFiles/LedScreenAlgorithm.dir/src/Effects/EffectScroll.c.o"
   "CMakeFiles/LedScreenAlgorithm.dir/src/Effects/EffectSnow.c.o"
   "CMakeFiles/LedScreenAlgorithm.dir/src/Effects/EffectUp.c.o"
+  "CMakeFiles/LedScreenAlgorithm.dir/src/Simulator/Simulator.c.o"
   "LedScreenAlgorithm.pdb"
   "LedScreenAlgorithm"
 )

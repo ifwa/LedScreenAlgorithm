@@ -17,6 +17,7 @@ CMakeFiles/LedScreenAlgorithm.dir/src/App/Main.c.o
  /Volumes/SD卡/Workplace/LedScreenAlgorithm/src/Effects/EffectScroll.h
  /Volumes/SD卡/Workplace/LedScreenAlgorithm/src/Effects/EffectSnow.h
  /Volumes/SD卡/Workplace/LedScreenAlgorithm/src/Effects/EffectUp.h
+ /Volumes/SD卡/Workplace/LedScreenAlgorithm/src/Simulator/Simulator.h
 CMakeFiles/LedScreenAlgorithm.dir/src/Display/LedAct.c.o
  /Volumes/SD卡/Workplace/LedScreenAlgorithm/src/App/Config.h
  /Volumes/SD卡/Workplace/LedScreenAlgorithm/src/App/Includes.h
@@ -33,6 +34,7 @@ CMakeFiles/LedScreenAlgorithm.dir/src/Display/LedAct.c.o
  /Volumes/SD卡/Workplace/LedScreenAlgorithm/src/Effects/EffectScroll.h
  /Volumes/SD卡/Workplace/LedScreenAlgorithm/src/Effects/EffectSnow.h
  /Volumes/SD卡/Workplace/LedScreenAlgorithm/src/Effects/EffectUp.h
+ /Volumes/SD卡/Workplace/LedScreenAlgorithm/src/Simulator/Simulator.h
 CMakeFiles/LedScreenAlgorithm.dir/src/Display/LedEffect.c.o
  /Volumes/SD卡/Workplace/LedScreenAlgorithm/src/App/Config.h
  /Volumes/SD卡/Workplace/LedScreenAlgorithm/src/App/Includes.h
@@ -49,6 +51,7 @@ CMakeFiles/LedScreenAlgorithm.dir/src/Display/LedEffect.c.o
  /Volumes/SD卡/Workplace/LedScreenAlgorithm/src/Effects/EffectScroll.h
  /Volumes/SD卡/Workplace/LedScreenAlgorithm/src/Effects/EffectSnow.h
  /Volumes/SD卡/Workplace/LedScreenAlgorithm/src/Effects/EffectUp.h
+ /Volumes/SD卡/Workplace/LedScreenAlgorithm/src/Simulator/Simulator.h
 CMakeFiles/LedScreenAlgorithm.dir/src/Display/LedProcess.c.o
  /Volumes/SD卡/Workplace/LedScreenAlgorithm/src/App/Config.h
  /Volumes/SD卡/Workplace/LedScreenAlgorithm/src/App/Includes.h
@@ -65,6 +68,7 @@ CMakeFiles/LedScreenAlgorithm.dir/src/Display/LedProcess.c.o
  /Volumes/SD卡/Workplace/LedScreenAlgorithm/src/Effects/EffectScroll.h
  /Volumes/SD卡/Workplace/LedScreenAlgorithm/src/Effects/EffectSnow.h
  /Volumes/SD卡/Workplace/LedScreenAlgorithm/src/Effects/EffectUp.h
+ /Volumes/SD卡/Workplace/LedScreenAlgorithm/src/Simulator/Simulator.h
 CMakeFiles/LedScreenAlgorithm.dir/src/Effects/EffectDown.c.o
  /Volumes/SD卡/Workplace/LedScreenAlgorithm/src/App/Config.h
  /Volumes/SD卡/Workplace/LedScreenAlgorithm/src/App/Includes.h
@@ -81,6 +85,7 @@ CMakeFiles/LedScreenAlgorithm.dir/src/Effects/EffectDown.c.o
  /Volumes/SD卡/Workplace/LedScreenAlgorithm/src/Effects/EffectScroll.h
  /Volumes/SD卡/Workplace/LedScreenAlgorithm/src/Effects/EffectSnow.h
  /Volumes/SD卡/Workplace/LedScreenAlgorithm/src/Effects/EffectUp.h
+ /Volumes/SD卡/Workplace/LedScreenAlgorithm/src/Simulator/Simulator.h
 CMakeFiles/LedScreenAlgorithm.dir/src/Effects/EffectFixed.c.o
  /Volumes/SD卡/Workplace/LedScreenAlgorithm/src/App/Config.h
  /Volumes/SD卡/Workplace/LedScreenAlgorithm/src/App/Includes.h
@@ -97,6 +102,7 @@ CMakeFiles/LedScreenAlgorithm.dir/src/Effects/EffectFixed.c.o
  /Volumes/SD卡/Workplace/LedScreenAlgorithm/src/Effects/EffectScroll.h
  /Volumes/SD卡/Workplace/LedScreenAlgorithm/src/Effects/EffectSnow.h
  /Volumes/SD卡/Workplace/LedScreenAlgorithm/src/Effects/EffectUp.h
+ /Volumes/SD卡/Workplace/LedScreenAlgorithm/src/Simulator/Simulator.h
 CMakeFiles/LedScreenAlgorithm.dir/src/Effects/EffectLaser.c.o
  /Volumes/SD卡/Workplace/LedScreenAlgorithm/src/App/Config.h
  /Volumes/SD卡/Workplace/LedScreenAlgorithm/src/App/Includes.h
@@ -113,6 +119,7 @@ CMakeFiles/LedScreenAlgorithm.dir/src/Effects/EffectLaser.c.o
  /Volumes/SD卡/Workplace/LedScreenAlgorithm/src/Effects/EffectScroll.h
  /Volumes/SD卡/Workplace/LedScreenAlgorithm/src/Effects/EffectSnow.h
  /Volumes/SD卡/Workplace/LedScreenAlgorithm/src/Effects/EffectUp.h
+ /Volumes/SD卡/Workplace/LedScreenAlgorithm/src/Simulator/Simulator.h
 CMakeFiles/LedScreenAlgorithm.dir/src/Effects/EffectLeft.c.o
  /Volumes/SD卡/Workplace/LedScreenAlgorithm/src/App/Config.h
  /Volumes/SD卡/Workplace/LedScreenAlgorithm/src/App/Includes.h
@@ -129,6 +136,7 @@ CMakeFiles/LedScreenAlgorithm.dir/src/Effects/EffectLeft.c.o
  /Volumes/SD卡/Workplace/LedScreenAlgorithm/src/Effects/EffectScroll.h
  /Volumes/SD卡/Workplace/LedScreenAlgorithm/src/Effects/EffectSnow.h
  /Volumes/SD卡/Workplace/LedScreenAlgorithm/src/Effects/EffectUp.h
+ /Volumes/SD卡/Workplace/LedScreenAlgorithm/src/Simulator/Simulator.h
 CMakeFiles/LedScreenAlgorithm.dir/src/Effects/EffectRight.c.o
  /Volumes/SD卡/Workplace/LedScreenAlgorithm/src/App/Config.h
  /Volumes/SD卡/Workplace/LedScreenAlgorithm/src/App/Includes.h
@@ -145,6 +153,7 @@ CMakeFiles/LedScreenAlgorithm.dir/src/Effects/EffectRight.c.o
  /Volumes/SD卡/Workplace/LedScreenAlgorithm/src/Effects/EffectScroll.h
  /Volumes/SD卡/Workplace/LedScreenAlgorithm/src/Effects/EffectSnow.h
  /Volumes/SD卡/Workplace/LedScreenAlgorithm/src/Effects/EffectUp.h
+ /Volumes/SD卡/Workplace/LedScreenAlgorithm/src/Simulator/Simulator.h
 CMakeFiles/LedScreenAlgorithm.dir/src/Effects/EffectScroll.c.o
  /Volumes/SD卡/Workplace/LedScreenAlgorithm/src/App/Config.h
  /Volumes/SD卡/Workplace/LedScreenAlgorithm/src/App/Includes.h
@@ -161,6 +170,7 @@ CMakeFiles/LedScreenAlgorithm.dir/src/Effects/EffectScroll.c.o
  /Volumes/SD卡/Workplace/LedScreenAlgorithm/src/Effects/EffectScroll.h
  /Volumes/SD卡/Workplace/LedScreenAlgorithm/src/Effects/EffectSnow.h
  /Volumes/SD卡/Workplace/LedScreenAlgorithm/src/Effects/EffectUp.h
+ /Volumes/SD卡/Workplace/LedScreenAlgorithm/src/Simulator/Simulator.h
 CMakeFiles/LedScreenAlgorithm.dir/src/Effects/EffectSnow.c.o
  /Volumes/SD卡/Workplace/LedScreenAlgorithm/src/App/Config.h
  /Volumes/SD卡/Workplace/LedScreenAlgorithm/src/App/Includes.h
@@ -177,6 +187,7 @@ CMakeFiles/LedScreenAlgorithm.dir/src/Effects/EffectSnow.c.o
  /Volumes/SD卡/Workplace/LedScreenAlgorithm/src/Effects/EffectSnow.c
  /Volumes/SD卡/Workplace/LedScreenAlgorithm/src/Effects/EffectSnow.h
  /Volumes/SD卡/Workplace/LedScreenAlgorithm/src/Effects/EffectUp.h
+ /Volumes/SD卡/Workplace/LedScreenAlgorithm/src/Simulator/Simulator.h
 CMakeFiles/LedScreenAlgorithm.dir/src/Effects/EffectUp.c.o
  /Volumes/SD卡/Workplace/LedScreenAlgorithm/src/App/Config.h
  /Volumes/SD卡/Workplace/LedScreenAlgorithm/src/App/Includes.h
@@ -193,3 +204,21 @@ CMakeFiles/LedScreenAlgorithm.dir/src/Effects/EffectUp.c.o
  /Volumes/SD卡/Workplace/LedScreenAlgorithm/src/Effects/EffectSnow.h
  /Volumes/SD卡/Workplace/LedScreenAlgorithm/src/Effects/EffectUp.c
  /Volumes/SD卡/Workplace/LedScreenAlgorithm/src/Effects/EffectUp.h
+ /Volumes/SD卡/Workplace/LedScreenAlgorithm/src/Simulator/Simulator.h
+CMakeFiles/LedScreenAlgorithm.dir/src/Simulator/Simulator.c.o
+ /Volumes/SD卡/Workplace/LedScreenAlgorithm/src/App/Config.h
+ /Volumes/SD卡/Workplace/LedScreenAlgorithm/src/App/Includes.h
+ /Volumes/SD卡/Workplace/LedScreenAlgorithm/src/App/Typedef.h
+ /Volumes/SD卡/Workplace/LedScreenAlgorithm/src/Display/LedAct.h
+ /Volumes/SD卡/Workplace/LedScreenAlgorithm/src/Display/LedEffect.h
+ /Volumes/SD卡/Workplace/LedScreenAlgorithm/src/Display/LedProcess.h
+ /Volumes/SD卡/Workplace/LedScreenAlgorithm/src/Effects/EffectDown.h
+ /Volumes/SD卡/Workplace/LedScreenAlgorithm/src/Effects/EffectFixed.h
+ /Volumes/SD卡/Workplace/LedScreenAlgorithm/src/Effects/EffectLaser.h
+ /Volumes/SD卡/Workplace/LedScreenAlgorithm/src/Effects/EffectLeft.h
+ /Volumes/SD卡/Workplace/LedScreenAlgorithm/src/Effects/EffectRight.h
+ /Volumes/SD卡/Workplace/LedScreenAlgorithm/src/Effects/EffectScroll.h
+ /Volumes/SD卡/Workplace/LedScreenAlgorithm/src/Effects/EffectSnow.h
+ /Volumes/SD卡/Workplace/LedScreenAlgorithm/src/Effects/EffectUp.h
+ /Volumes/SD卡/Workplace/LedScreenAlgorithm/src/Simulator/Simulator.c
+ /Volumes/SD卡/Workplace/LedScreenAlgorithm/src/Simulator/Simulator.h

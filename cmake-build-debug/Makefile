@@ -447,6 +447,33 @@ src/Effects/EffectUp.c.s:
 	$(MAKE) -f CMakeFiles/LedScreenAlgorithm.dir/build.make CMakeFiles/LedScreenAlgorithm.dir/src/Effects/EffectUp.c.s
 .PHONY : src/Effects/EffectUp.c.s
 
+src/Simulator/Simulator.o: src/Simulator/Simulator.c.o
+
+.PHONY : src/Simulator/Simulator.o
+
+# target to build an object file
+src/Simulator/Simulator.c.o:
+	$(MAKE) -f CMakeFiles/LedScreenAlgorithm.dir/build.make CMakeFiles/LedScreenAlgorithm.dir/src/Simulator/Simulator.c.o
+.PHONY : src/Simulator/Simulator.c.o
+
+src/Simulator/Simulator.i: src/Simulator/Simulator.c.i
+
+.PHONY : src/Simulator/Simulator.i
+
+# target to preprocess a source file
+src/Simulator/Simulator.c.i:
+	$(MAKE) -f CMakeFiles/LedScreenAlgorithm.dir/build.make CMakeFiles/LedScreenAlgorithm.dir/src/Simulator/Simulator.c.i
+.PHONY : src/Simulator/Simulator.c.i
+
+src/Simulator/Simulator.s: src/Simulator/Simulator.c.s
+
+.PHONY : src/Simulator/Simulator.s
+
+# target to generate assembly for a file
+src/Simulator/Simulator.c.s:
+	$(MAKE) -f CMakeFiles/LedScreenAlgorithm.dir/build.make CMakeFiles/LedScreenAlgorithm.dir/src/Simulator/Simulator.c.s
+.PHONY : src/Simulator/Simulator.c.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -492,6 +519,9 @@ help:
 	@echo "... src/Effects/EffectUp.o"
 	@echo "... src/Effects/EffectUp.i"
 	@echo "... src/Effects/EffectUp.s"
+	@echo "... src/Simulator/Simulator.o"
+	@echo "... src/Simulator/Simulator.i"
+	@echo "... src/Simulator/Simulator.s"
 .PHONY : help
 
 

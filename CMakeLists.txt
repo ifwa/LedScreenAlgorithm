@@ -29,6 +29,15 @@ set(SOURCE_FILES
         src/Effects/EffectSnow.c
         src/Effects/EffectSnow.h
         src/Effects/EffectUp.c
-        src/Effects/EffectUp.h)
+        src/Effects/EffectUp.h
+        src/Simulator/Simulator.c
+        src/Simulator/Simulator.h)
+
+find_library(LIB_NCURSES ncurses)
+find_library(LIB_PTHREAD pthread)
 
 add_executable(LedScreenAlgorithm ${SOURCE_FILES})
+
+target_link_libraries(LedScreenAlgorithm
+        ${LIB_NCURSES}
+        ${LIB_PTHREAD})
