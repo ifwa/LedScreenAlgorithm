@@ -38,4 +38,39 @@ $ ./ledsim
 
 This demonstration shows some Chinese characters. "暴走漫画" means "Rage Comic". "美国队长" means "Captain America". "动物森林" means "Animal forest". They are just some words that first came to my mind.
 
+### Effects
+
+- Laser
+
+![image](https://github.com/IveWang/LedScreenAlgorithm/blob/master/doc/gif/laser.gif)
+
+- Snow
+
+![image](https://github.com/IveWang/LedScreenAlgorithm/blob/master/doc/gif/snow.gif)
+
+- Left Moving
+
+![image](https://github.com/IveWang/LedScreenAlgorithm/blob/master/doc/gif/left.gif)
+
+- Right Moving
+
+![image](https://github.com/IveWang/LedScreenAlgorithm/blob/master/doc/gif/right.gif)
+
+- Up Moving
+
+![image](https://github.com/IveWang/LedScreenAlgorithm/blob/master/doc/gif/up.gif)
+
+- Down Moving
+
+![image](https://github.com/IveWang/LedScreenAlgorithm/blob/master/doc/gif/down.gif)
+
+- Scroll
+
+![image](https://github.com/IveWang/LedScreenAlgorithm/blob/master/doc/gif/scroll.gif)
+
+- Marquee
+
+![image](https://github.com/IveWang/LedScreenAlgorithm/blob/master/doc/gif/marquee.gif)
+
+
 ---

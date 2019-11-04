@@ -1,3 +1,0 @@
-/Volumes/SD卡/Workplace/LedScreenAlgorithm/cmake-build-debug/CMakeFiles/edit_cache.dir
-/Volumes/SD卡/Workplace/LedScreenAlgorithm/cmake-build-debug/CMakeFiles/rebuild_cache.dir
-/Volumes/SD卡/Workplace/LedScreenAlgorithm/cmake-build-debug/CMakeFiles/LedScreenAlgorithm.dir

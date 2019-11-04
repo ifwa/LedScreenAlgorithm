@@ -22,12 +22,12 @@
 #endif
 
 
-/* LED显示 - 模式 */
-#define LED_DISPLAY_MODE_OFF                0           // 关屏模式
-#define LED_DISPLAY_MODE_BAT                1           // 电池模式
-#define LED_DISPLAY_MODE_NOR                2           // 正常模式
+/* LED显示 - 模式 (LED Display - Mode) */
+#define LED_DISPLAY_MODE_OFF                0           // 关屏模式 (Screen-off Mode)
+#define LED_DISPLAY_MODE_BAT                1           // 电池模式 (Battery Mode)
+#define LED_DISPLAY_MODE_NOR                2           // 正常模式 (Normal Mode)
 
-/* LED显示 - 亮度 */
+/* LED显示 - 亮度 (LED Display - Brightness Level: 0 ~ 3) */
 #define LED_DISPLAY_BRIGHT_25               0
 #define LED_DISPLAY_BRIGHT_50               1
 #define LED_DISPLAY_BRIGHT_75               2
@@ -35,9 +35,12 @@
 #define LED_DISPLAY_BRIGHT_LEVEL_MAX        3           // 最大亮度等级(共四级，0-3)
 
 /* LED屏幕 - 列数(实际显示的两列在程序中算一列，为一个最小显示单位) */
+/* LED Screen - Number of Columns */
+/* (The actual two columns are considered to be one column in the code. It is the minimum display unit.) */
 #define LED_SCREEN_MAX_COL                  23
 
 /* LED屏幕 - 字数(一个字中，只用到16位，所以可用16位整型定义) */
+/* LED Screen - Number of Words */
 #define LED_SCREEN_MAX_WORDS                48
 
 

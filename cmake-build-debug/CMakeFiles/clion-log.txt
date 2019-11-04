@@ -1,4 +1,32 @@
-/Applications/CLion.app/Contents/bin/cmake/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" /Volumes/SD卡/Workplace/LedScreenAlgorithm
--- Configuring done
--- Generating done
--- Build files have been written to: /Volumes/SD卡/Workplace/LedScreenAlgorithm/cmake-build-debug
+/Applications/CLion.app/Contents/bin/cmake/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" /Volumes/SD/Workplace/LedScreenAlgorithm
+-- The C compiler identification is unknown
+-- The CXX compiler identification is unknown
+-- Check for working C compiler: /usr/bin/cc
+-- Check for working C compiler: /usr/bin/cc -- broken
+CMake Error at /Applications/CLion.app/Contents/bin/cmake/share/cmake-3.6/Modules/CMakeTestCCompiler.cmake:61 (message):
+  The C compiler "/usr/bin/cc" is not able to compile a simple test program.
+
+  It fails with the following output:
+
+   Change Dir: /Volumes/SD/Workplace/LedScreenAlgorithm/cmake-build-debug/CMakeFiles/CMakeTmp
+
+  
+
+  Run Build Command:"/usr/bin/make" "cmTC_b7b77/fast"
+
+  xcrun: error: invalid active developer path
+  (/Library/Developer/CommandLineTools), missing xcrun at:
+  /Library/Developer/CommandLineTools/usr/bin/xcrun
+
+  
+
+  
+
+  CMake will not be able to correctly generate this project.
+Call Stack (most recent call first):
+  CMakeLists.txt:2 (project)
+
+
+-- Configuring incomplete, errors occurred!
+See also "/Volumes/SD/Workplace/LedScreenAlgorithm/cmake-build-debug/CMakeFiles/CMakeOutput.log".
+See also "/Volumes/SD/Workplace/LedScreenAlgorithm/cmake-build-debug/CMakeFiles/CMakeError.log".
